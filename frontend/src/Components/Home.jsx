@@ -46,7 +46,7 @@ const Home = () => {
           <p className="text-lg font-semibold mb-2 text-center">COMMUNITY</p>
           <p className="text-sm font-thin text-left hidden md:block">Join communities to collab and network.</p>
         </a>
-        <a href="#esmoai" className="bg-black border border-gray-300 p-4 rounded-lg shadow-lg w-56 h-40 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:border-cyan-500">
+        <a href="#aitutor" className="bg-black border border-gray-300 p-4 rounded-lg shadow-lg w-56 h-40 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:border-cyan-500">
           <img src={AiSupportImg} alt="AI Support" className="w-12 h-12 mb-2" />
           <p className="text-lg font-semibold mb-2 text-center">AI SUPPORT</p>
           <p className="text-sm font-thin text-left hidden md:block">Get personalized guidance and support with AI Tutor.</p>

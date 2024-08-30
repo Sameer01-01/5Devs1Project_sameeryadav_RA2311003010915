@@ -30,7 +30,7 @@ const Aitutor = () => {
 
   return (
     <div
-      id="esmoai"
+      id="aitutor"
       className="relative min-h-screen flex flex-col items-center justify-center bg-black text-white py-8 px-4 overflow-hidden"
       style={{ 
         backgroundImage: `url(${grid})`, 

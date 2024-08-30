@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#esmoai"
+                href="#aitutor"
                 className="block py-2 pl-2 pr-2 text-gray-300 border-b border-transparent hover:border-cyan-500 hover:text-cyan-500 transition-all duration-300"
               >
                 AI Tutor
