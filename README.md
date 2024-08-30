@@ -25,6 +25,58 @@ There are many students around the world who want to learn coding but they donâ€
 
 10xCoders is your one-stop solution for learning, career guidance, and mastery in your preferred domain, offering top resources, developer communities, and an AI tutor. Our personalized dashboard tracks your progress and keeps you motivated to achieve your goals efficiently.
 
+## Technical Approach
+
+### Design
+- **Designing tools used :-** Figma
+### FrontEnd
+- **React.Js**
+- **TailwindCSS**
+### BackEnd
+- **MondoDB**
+- **Express.Js**
+- **Node.Js**
+### VCS Tools
+- **Git**
+- **GitHub**
+## Target Audience
+- Tech enthusiasts
+- First-year college students
+- Recent high school graduates
+- How CodersHub Meets Their Needs:
+## How **10xCoders** Meets Their Needs:
+- Offers tailored learning paths
+- Provides practical advice for navigating the tech industry
+- Creates a supportive community to help overcome challenges in starting tech careers
+## Feasibility
+- Content and Quality depth
+- Feasible if tutorials are well-curated for beginners.
+- Requires regular updates and expert validation.
+- UX and Interface
+- Feasible with a clean, intuitive UI.
+- Challenges in balancing usability for varied skill levels.
+## Scalability
+- Balancing free and paid content can be challenging.
+- Scalable by adding more domains and tutorials.
+- Needs advanced backend solutions for larger traffic.
+- Making a sustainable Freemium Model
+
+## Impact
+- **Educational Access:** Makes coding accessible and reduces barriers for beginners.
+- **Skill Development:** Accelerates learning and builds a strong coding foundation.
+- **Community Building:** Fosters a supportive and collaborative learning community.
+- **Career Opportunities:** Enhances employability and bridges the tech industry skill gap
+
+
+
+
+
+
+
+
+
+
+
 ## UI/UX of the Project
 
 ### Web Version PC
@@ -34,4 +86,5 @@ There are many students around the world who want to learn coding but they donâ€
 ### Web App Version
 
 <img src="https://eu-central.storage.cloudconvert.com/tasks/bc45cfc7-fdfb-49ca-b2db-284cb880ec55/mock%27.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240830%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240830T072040Z&X-Amz-Expires=86400&X-Amz-Signature=5ef973967760d9503405e4de46acc551882216ec63696c06570f02644ef42368&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22mock%27.webp%22&response-content-type=image%2Fwebp&x-id=GetObject" alt="Alt text" >
+
 
