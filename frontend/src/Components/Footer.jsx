@@ -4,20 +4,16 @@ import navbarlogo from '../assets/navbarlogo.png';
 const Footer = () => {
   return (
     <>
-      {/* Cool Separating Line */}
       <div className="h-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 shadow-md"></div>
 
       <footer className="bg-black text-white py-8 px-4 relative">
-        {/* Mobile Only Logo and Copyright */}
         <div className="absolute top-8 left-20 flex items-center">
           <img src={navbarlogo} alt="CodersHub Logo" className="w-24" />
         </div>
 
-        {/* Desktop and Tablet Footer Sections */}
+        
         <div className="hidden md:block ml-80 max-w-6xl mx-auto">
-          {/* Footer Sections Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {/* Home Section */}
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">Home</h3>
               <ul className="space-y-1 text-sm">
@@ -25,7 +21,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Roadmap Section */}
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">Roadmap</h3>
               <ul className="space-y-1 text-sm">
@@ -34,7 +29,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Community Section */}
+            
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">Community</h3>
               <ul className="space-y-1 text-sm">
@@ -43,7 +38,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* ESMOAI Section */}
+           
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">AI </h3>
               <ul className="space-y-1 text-sm">
@@ -51,7 +46,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Find Events Section */}
+            
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">Find Events</h3>
               <ul className="space-y-1 text-sm">
@@ -60,7 +55,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* About Us Section */}
+            
             <div className="space-y-2 text-left">
               <h3 className="text-sm font-semibold">About Us</h3>
               <ul className="space-y-1 text-sm">

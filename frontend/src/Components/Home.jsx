@@ -10,7 +10,6 @@ import CommunityImg from '../Assets/Community.png';
 const Home = () => {
   return (
     <div id="home" className="bg-black text-white min-h-screen flex flex-col items-center justify-center pt-24 lg:pt-0 relative overflow-hidden">
-      {/* Gradient Backgrounds */}
       <img 
         src={Gradient1} 
         alt="Gradient 1" 
@@ -21,20 +20,14 @@ const Home = () => {
         alt="Gradient 2" 
         className="absolute bottom-0 right-0 w-full h-full opacity-50 z-10 object-cover"
       />
-      
-      {/* Large Text Section */}
       <div className="text-center mb-12 mx-4 lg:mx-0 relative z-20">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
           Ready to elevate <span className="text-cyan-500 font-extrabold">your</span> tech career and skills to new heights?
         </h1>
       </div>
-
-      {/* Providing Line */}
       <div className="text-center mb-8 relative z-20">
         <p className="text-2xl font-bold">Here we provide</p>
       </div>
-
-      {/* Boxes Section */}
       <div className="flex flex-wrap justify-center gap-4 relative z-20">
         <a href="#roadmap" className="bg-black border border-gray-300 p-4 rounded-lg shadow-lg w-56 h-40 flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:border-cyan-500">
           <img src={RoadmapImg} alt="Roadmaps" className="w-12 h-12 mb-2" />

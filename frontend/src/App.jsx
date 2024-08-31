@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+//import AuthPage from './Components/AuthPage';
 import Home from './Components/Home';
 import Roadmap from './Components/Roadmap';
 import Aboutus from './Components/Aboutus';

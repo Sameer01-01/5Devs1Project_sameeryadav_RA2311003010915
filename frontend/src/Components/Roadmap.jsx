@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Expand from '../assets/Expand.png'; // Ensure the path to your image is correct
-import { IoClose } from 'react-icons/io5'; // Import the close icon
+import Expand from '../assets/Expand.png'; 
+import { IoClose } from 'react-icons/io5'; 
 
 const Roadmap = () => {
   const [selectedBox, setSelectedBox] = useState(null);
 
-  // Data for each box
+  
   const boxData = [
-    { title: 'Frontend', description: 'A Frontend Developer creates the visual and interactive elements of websites and apps.', links: ['https://drive.google.com/file/d/1NZ2JURtTNxn5zMnboZV_26h3Hc-Th3St/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1FLGMNx0uQu2AiY_QFeNn1XrnsuvI9tbb/edit?gid=487603146#gid=487603146', 'https://youtu.be/l1EssrLxt7E?si=_wgqWgSs9fflO6rS', 'https://www.coursera.org/professional-certificates/meta-front-end-developer?utm_medium=sem&utm_source=gg&utm_campaign=b2c_india_meta-front-end-developer_meta_ftcof_professional-certificates_arte_oct-23_dr_sem_rsa_gads_lg-all&campaignid=20672771440&adgroupid=159938653196&device=c&keyword=meta%20front%20end%20developer%20professional%20certificate&matchtype=p&network=g&devicemodel=&adposition=&creativeid=696893433115&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjww5u2BhDeARIsALBuLnOPPZeeFLJCx9G4JaO3o66Ai19rZiCNkIzupFIFXp3N1U4nlTZmIQMaAnQEEALw_wcB'] },
+    { title: 'Frontend', description: 'A Frontend Developer create the visual and interactive elements of websites and apps.', links: ['https://drive.google.com/file/d/1NZ2JURtTNxn5zMnboZV_26h3Hc-Th3St/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1FLGMNx0uQu2AiY_QFeNn1XrnsuvI9tbb/edit?gid=487603146#gid=487603146', 'https://youtu.be/l1EssrLxt7E?si=_wgqWgSs9fflO6rS', 'https://www.coursera.org/professional-certificates/meta-front-end-developer?utm_medium=sem&utm_source=gg&utm_campaign=b2c_india_meta-front-end-developer_meta_ftcof_professional-certificates_arte_oct-23_dr_sem_rsa_gads_lg-all&campaignid=20672771440&adgroupid=159938653196&device=c&keyword=meta%20front%20end%20developer%20professional%20certificate&matchtype=p&network=g&devicemodel=&adposition=&creativeid=696893433115&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjww5u2BhDeARIsALBuLnOPPZeeFLJCx9G4JaO3o66Ai19rZiCNkIzupFIFXp3N1U4nlTZmIQMaAnQEEALw_wcB'] },
     { title: 'Backend', description: 'A Backend Developer builds and maintains the server-side logic, databases, and APIs.', links: ['https://drive.google.com/file/d/1ka-1z8fM4VtNFrTTn5OMNk7_dnwqOCKU/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1Fb1imZLhidPB_sYU0vBskgRHCU06TztR/edit?gid=1723041662#gid=1723041662', 'https://www.youtube.com/watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH', 'https://www.coursera.org/professional-certificates/meta-back-end-developer'] },
     { title: 'DSA', description: 'Solve complex problems and optimize performance in software development.', links: ['https://drive.google.com/file/d/16Pb3lO__0IpseCBMCyk3OIu5kezs23kY/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1-KJYI3uPHdYGXK2wtH3CG_YjjN_jtVhZ/edit?gid=346923608#gid=346923608', 'https://www.youtube.com/watch?v=EAR7De6Goz4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=3', 'https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_Keyword_Beta_Prof_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=Keyword&topic=Data_Structures&priority=Beta&utm_content=deal4584&utm_term=_._ag_160754673973_._ad_696237452587_._kw_dsa+course_._de_c_._dm__._pl__._ti_kwd-380230881530_._li_9299829_._pd__._&matchtype=b&gad_source=1&gclid=Cj0KCQjww5u2BhDeARIsALBuLnOCQsV_1dG2t7EomiOHWVuekKfUfrZvj7IEQJJCge0PEJX-MxXVvloaAg0-EALw_wcB&couponCode=SKILLS4SALEA'] },
     { title: 'AI/ML', description: 'Create systems that learn from data, make decisions, and improve over time.', links: ['https://drive.google.com/file/d/1IipyMKvbaXigWMQ1ySQp6694S2JgRwGz/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1LmwREbueImOyhxFmJCAAzIZzAA7ukopY/edit?gid=1773566074#gid=1773566074', 'https://www.youtube.com/watch?v=xaAdbDCX0XI', 'https://aws.amazon.com/certification/certified-machine-learning-specialty/'] },
@@ -21,12 +21,12 @@ const Roadmap = () => {
     { title: 'iOS', description: 'Create and maintain applications for Apple\'s iOS devices.', links: ['https://drive.google.com/file/d/1k5liwkTIjgp3FS5hnQFM2pI-xZVU6GMY/view?usp=sharing', 'https://docs.google.com/spreadsheets/d/1fZmxb4Eepa-29qRzZmYLsrOQLwgPqm67/edit?gid=1169035854#gid=1169035854', 'https://www.youtube.com/watch?v=b1oC7sLIgpI', 'https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer&utm_medium=sem&utm_source=gg&utm_campaign=b2c_india_ios_mobile_development_sitelink_Gads&campaignid=21457261156&adgroupid=164111526403&device=c&keyword=ios%20development%20course&matchtype=p&network=g&devicemodel=&adposition=&creativeid=705251443177&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjww5u2BhDeARIsALBuLnNJZec7NJh3yIkbk6PUSOQkmkk0U5_joN62C4ETH7hcX2hM5HSwv2saApXAEALw_wcB'] },
   ];
 
-  // Function to handle opening a specific popup
+  
   const openPopup = (index) => {
     setSelectedBox(index);
   };
 
-  // Function to handle closing the popup
+ 
   const closePopup = () => {
     setSelectedBox(null);
   };

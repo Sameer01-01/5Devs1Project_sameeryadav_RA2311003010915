@@ -5,10 +5,10 @@ import Globe2 from '../assets/Globe2.png';
 const Findevents = () => {
   return (
     <div id="findevents" className="relative min-h-screen bg-black text-white py-16 px-4 overflow-hidden">
-      {/* Heading */}
+      
       <h1 className="text-4xl font-bold text-center mb-8">Events and Tips</h1>
 
-      {/* Globe Images */}
+      
       <img
         src={Globe1}
         alt="Globe 1"
@@ -20,14 +20,14 @@ const Findevents = () => {
         className="absolute bottom-2 right-4 w-70 h-70 object-contain opacity-90 hidden md:block"
       />
 
-      {/* Content */}
+      
       <div className="text-center text-lg mb-8">
         <p>Discover the latest events and tips to help you stay informed and engaged.</p>
       </div>
 
-      {/* Boxes */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-        {/* Box 1 */}
+        
         <div className="bg-black border border-white p-6 rounded-lg shadow-lg relative z-10 transition-transform duration-300 transform hover:scale-105 hover:border-blue-600">
           <h2 className="text-xl font-bold mb-2">Find Hackathons</h2>
           <ul className="list-disc list-inside">
@@ -39,7 +39,7 @@ const Findevents = () => {
           </ul>
         </div>
         
-        {/* Box 2 */}
+        
         <div className="bg-black border border-white p-6 rounded-lg shadow-lg relative z-10 transition-transform duration-300 transform hover:scale-105 hover:border-blue-600">
           <h2 className="text-xl font-bold mb-2">Stay Updated</h2>
           <ul className="list-disc list-inside">
@@ -51,7 +51,7 @@ const Findevents = () => {
           </ul>
         </div>
         
-        {/* Box 3 */}
+        
         <div className="bg-black border border-white p-6 rounded-lg shadow-lg relative z-10 transition-transform duration-300 transform hover:scale-105 hover:border-blue-600">
           <h2 className="text-xl font-bold mb-2">Start Coding Prep</h2>
           <ul className="list-disc list-inside">
@@ -63,7 +63,7 @@ const Findevents = () => {
           </ul>
         </div>
         
-        {/* Box 4 */}
+        
         <div className="bg-black border border-white p-6 rounded-lg shadow-lg relative z-10 transition-transform duration-300 transform hover:scale-105 hover:border-blue-600">
           <h2 className="text-xl font-bold mb-2">For UI/UX</h2>
           <ul className="list-disc list-inside">

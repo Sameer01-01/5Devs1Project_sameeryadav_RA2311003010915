@@ -1,21 +1,21 @@
 import React from 'react';
 import { FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa';
-import maps from '../assets/maps.png'; // Ensure the path to your map image is correct
+import maps from '../assets/maps.png';
 
 const Community = () => {
   return (
     <div id="community" className="bg-black text-white min-h-screen flex flex-col items-center justify-center pt-24 lg:pt-0 relative overflow-hidden px-4">
-      {/* Text and Image Container */}
+      
       <div className="text-center max-w-3xl mx-auto">
-        {/* Bold Text */}
+        
         <h1 className="text-3xl font-extrabold mb-4">
           JOIN TECH COMMUNITIES
         </h1>
-        {/* Smaller Text */}
+        
         <p className="text-lg mb-8">
           Ask Questions to anyone from anywhere in the world
         </p>
-        {/* Map Image */}
+        
         <img 
           src={maps} 
           alt="Map" 
@@ -27,15 +27,15 @@ const Community = () => {
         </p>
       </div>
 
-      {/* Cards Section */}
+      
       <div className="w-full max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Card 1 */}
+          
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center relative">
             <h2 className="text-xl font-bold mb-2 flex items-center justify-center">
               Discord Servers
             </h2>
-            {/* List of Discord Servers */}
+            
             <div className="mb-4">
               <a href="https://discord.com/invite/programming" className="block underline hover:text-cyan-500 mb-2 flex items-center">
                 <FaDiscord className="mr-2 text-blue-500" /> The Programmer's Hangout
@@ -60,7 +60,7 @@ const Community = () => {
               </a>
             </div>
           </div>
-          {/* Card 2 */}
+          
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center relative">
             <h2 className="text-xl font-bold mb-2 flex items-center">
               Reddit Servers
@@ -89,7 +89,7 @@ const Community = () => {
               </a>
             </div>
           </div>
-          {/* Card 3 */}
+          
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center relative">
             <h2 className="text-xl font-bold mb-2 flex items-center">
               Twitter Servers
